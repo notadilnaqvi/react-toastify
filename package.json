@@ -38,11 +38,6 @@
     "react": ">=16",
     "react-dom": ">=16"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
-  },
   "prettier": {
     "printWidth": 80,
     "semi": true,
