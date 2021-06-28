@@ -28,14 +28,14 @@ export const TYPE: { [key in KeyOfType]: TypeOptions } = {
   DARK: 'dark'
 };
 
-export const enum Default {
+export enum Default {
   COLLAPSE_DURATION = 300,
   DEBOUNCE_DURATION = 50,
   CSS_NAMESPACE = 'Toastify',
   DRAGGABLE_PERCENT = 80
 }
 
-export const enum Direction {
+export enum Direction {
   X = 'x',
   Y = 'y'
 }

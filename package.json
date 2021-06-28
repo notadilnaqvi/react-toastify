@@ -94,6 +94,7 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "clsx": "^1.1.1"
+    "clsx": "^1.1.1",
+    "react-app-polyfill": "^2.0.0"
   }
 }

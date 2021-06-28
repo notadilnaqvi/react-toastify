@@ -2,7 +2,7 @@ import { Id } from '../types';
 
 import { isToastIdValid } from '../utils';
 
-export const enum ActionType {
+export enum ActionType {
   ADD,
   REMOVE
 }

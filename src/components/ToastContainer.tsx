@@ -59,6 +59,7 @@ export const ToastContainer: React.FC<ToastContainerProps> = props => {
                       : toastProps.closeButton
                   }
                 >
+                  {/* TODO: Add custom here */}
                   {content}
                 </Toast>
               );

@@ -36,7 +36,7 @@ export interface CSSTransitionProps {
   collapseDuration?: number;
 }
 
-const enum AnimationStep {
+enum AnimationStep {
   Enter,
   Exit
 }
