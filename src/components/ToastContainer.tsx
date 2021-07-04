@@ -22,10 +22,10 @@ export const ToastContainer: React.FC<ToastContainerProps> = props => {
     );
     return isFn(className)
       ? className({
-          position,
-          rtl,
-          defaultClassName
-        })
+        position,
+        rtl,
+        defaultClassName
+      })
       : cx(defaultClassName, parseClassName(className));
   }
 

@@ -1,0 +1,32 @@
+.#{$rt-namespace}__toast-header {
+  position: relative;
+  min-height: 30px; // $rt-toast-min-height
+  align-items: center;
+  font-size: 11pt;
+  font-weight: 600;
+  max-height: $rt-toast-max-height;
+  // background-color: #68C56C;
+  background: linear-gradient(87.02deg, #68C56C -19.57%, #68E46D 101.98%);
+
+  box-sizing: border-box;
+  padding: 0px;
+  border-radius: 0px;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  font-family: $rt-font-family;
+  cursor: pointer;
+  direction: ltr;
+}
+
+.#{$rt-namespace}--animate {
+  animation-fill-mode: both;
+  animation-duration: 0.7s;
+}
+
+@media #{$rt-mobile} {
+  .#{$rt-namespace}__toast-header {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+}

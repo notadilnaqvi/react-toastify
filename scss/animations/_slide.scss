@@ -89,7 +89,7 @@
     }
     &--top-right,
     &--bottom-right {
-        animation-name: #{$rt-namespace}__slideInRight;
+        animation-name: #{$rt-namespace}__slideInUp;
     }
     &--top-center {
         animation-name: #{$rt-namespace}__slideInDown;
@@ -106,7 +106,7 @@
     }
     &--top-right,
     &--bottom-right {
-        animation-name: #{$rt-namespace}__slideOutRight;
+        animation-name: #{$rt-namespace}__slideOutDown;
     }
     &--top-center {
         animation-name: #{$rt-namespace}__slideOutUp;

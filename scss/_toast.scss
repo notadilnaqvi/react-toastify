@@ -2,11 +2,11 @@
   position: relative;
   min-height: $rt-toast-min-height;
   box-sizing: border-box;
-  margin-bottom: 1rem;
-  padding: 8px;
-  border-radius: 4px;
-  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1), 0 2px 15px 0 rgba(0, 0, 0, 0.05);
+  margin-top: 1rem;
+  padding: 0px;
+  border-radius: 0px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   max-height: $rt-toast-max-height;
   overflow: hidden;
@@ -38,8 +38,8 @@
   }
   &-body {
     margin: auto 0;
-    flex: 1 1 auto;
-    padding: 6px;
+    display: flex;
+    padding: 6px 12px;
   }
 }
 

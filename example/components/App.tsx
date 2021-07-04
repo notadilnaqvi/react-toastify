@@ -76,10 +76,13 @@ class App extends React.Component {
   static getDefaultState() {
     return {
       ...ToastContainer.defaultProps,
-      transition: 'bounce',
-      type: 'default',
+      position: 'bottom-right',
+      newestOnTop: true,
+      hideProgressBar: true,
+      transition: 'slide',
+      type: 'dark',
       progress: '',
-      disableAutoClose: false,
+      disableAutoClose: true,
       limit: 0
     };
   }
@@ -91,13 +94,14 @@ class App extends React.Component {
 
   clearAll = () => toast.dismiss();
 
+  // TODO: Add props here
   showToast = () => {
     this.toastId =
       this.state.type === 'default'
         ? toast('🦄 Wow so easy !', { progress: this.state.progress })
-        : toast[this.state.type]('🚀 Wow so easy !', {
-            progress: this.state.progress
-          });
+        : toast[this.state.type]('HERE', {
+          progress: this.state.progress
+        });
   };
 
   updateToast = () =>
