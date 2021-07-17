@@ -89,6 +89,7 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
+    "autoprefixer": "^9.0.0",
     "clsx": "^1.1.1",
     "react-app-polyfill": "^2.0.0"
   }

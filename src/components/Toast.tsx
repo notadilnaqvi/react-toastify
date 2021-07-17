@@ -90,7 +90,7 @@ export const Toast: React.FC<ToastProps> = props => {
           }
           style={bodyStyle}
         >
-          Achievement Unlocked
+          {children} {renderCloseButton(closeButton)}
         </div>
 
         <div
@@ -112,7 +112,7 @@ export const Toast: React.FC<ToastProps> = props => {
 
           </div>
           <div style={{ paddingLeft: 8 }}>
-            <p style={{ fontSize: '18px', margin: 0 }}>Traveller</p>
+            <p style={{ fontSize: '18px', fontWeight: 600, margin: 0 }}>Traveller</p>
             <p style={{ fontSize: '14px', margin: 0 }}>You visited 5 pages on adilnaqvi.com</p>
           </div>
 
